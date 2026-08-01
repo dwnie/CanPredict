@@ -136,11 +136,10 @@ size used by PI-APPTS.
 
 ## Large artifacts
 
-The two serialized corpora occupy approximately 4.8 GB and the archived model
-checkpoints approximately 2.1 GB.  They must not be committed to ordinary Git
-history.  Before publishing, archive them in a versioned research-data release
-(for example, Zenodo) and record the DOI, version, SHA-256 checksums, and the
-expected destination paths in the GitHub release notes.
+The two serialized corpora and the archived model artifacts are available in
+the [CanPredict Zenodo record](https://doi.org/10.5281/zenodo.21740539),
+version `v1.0.0`.  The record includes SHA-256 checksums and restoration
+instructions.
 
 The public Git repository should include the code, documentation, small target
 benchmark files, processed tables, and raw JSON records.  Users should download
