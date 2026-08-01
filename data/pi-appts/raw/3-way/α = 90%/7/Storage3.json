@@ -1,0 +1,41 @@
+{
+  "benchmark": "Storage3",
+  "time": "2026-02-21T21:44:35",
+  "return_code": 0,
+  "elapsed_seconds": 1000.367,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Storage3.model",
+      "Storage3.constraints",
+      "3",
+      "238"
+    ]
+  },
+  "predicted_test_cases": 238,
+  "initial_test_cases": 239,
+  "final_test_cases": 224,
+  "operations": [
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 239 test cases in 0.378 seconds\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 224 test cases in 30.164 seconds\nEnd\n",
+  "stderr": ""
+}

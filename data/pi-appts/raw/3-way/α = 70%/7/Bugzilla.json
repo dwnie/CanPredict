@@ -1,0 +1,42 @@
+{
+  "benchmark": "Bugzilla",
+  "time": "2026-02-18T23:07:07",
+  "return_code": 0,
+  "elapsed_seconds": 1000.419,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Bugzilla.model",
+      "Bugzilla.constraints",
+      "3",
+      "63"
+    ]
+  },
+  "predicted_test_cases": 63,
+  "initial_test_cases": 68,
+  "final_test_cases": 48,
+  "operations": [
+    "delete 5 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 68 test cases in 0.477 seconds\ndelete 5 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 48 test cases in 133.463 seconds\nEnd\n",
+  "stderr": ""
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark": "SystemMgmt",
+  "time": "2026-03-26T18:27:29",
+  "return_code": 0,
+  "elapsed_seconds": 1000.326,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "SystemMgmt.model",
+      "SystemMgmt.constraints",
+      "2",
+      "15"
+    ]
+  },
+  "predicted_test_cases": 15,
+  "initial_test_cases": 17,
+  "final_test_cases": 15,
+  "operations": [
+    "delete 2 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 17 test cases in 0.29 seconds\ndelete 2 rows\ndelete 1 rows\nSuccess to construct a CA with 15 test cases in 0.337 seconds\nEnd\n",
+  "stderr": ""
+}

@@ -1,0 +1,28 @@
+{
+  "benchmark": "Banking1",
+  "time": "2026-03-31T16:05:24",
+  "return_code": 0,
+  "elapsed_seconds": 1000.338,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Banking1.model",
+      "Banking1.constraints",
+      "2",
+      "15"
+    ]
+  },
+  "predicted_test_cases": 15,
+  "initial_test_cases": 15,
+  "final_test_cases": 13,
+  "operations": [
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 15 test cases in 0.304 seconds\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 13 test cases in 0.355 seconds\nEnd\n",
+  "stderr": ""
+}

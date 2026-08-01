@@ -1,0 +1,31 @@
+{
+  "benchmark": "Storage5",
+  "time": "2026-03-26T11:30:17",
+  "return_code": 0,
+  "elapsed_seconds": 1000.412,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Storage5.model",
+      "Storage5.constraints",
+      "2",
+      "211"
+    ]
+  },
+  "predicted_test_cases": 211,
+  "initial_test_cases": 218,
+  "final_test_cases": 215,
+  "operations": [
+    "delete 7 rows",
+    "add one row",
+    "add one row",
+    "add one row",
+    "add one row",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 218 test cases in 0.417 seconds\ndelete 7 rows\nadd one row\nadd one row\nadd one row\nadd one row\ndelete 1 rows\nSuccess to construct a CA with 215 test cases in 5.52 seconds\nEnd\n",
+  "stderr": ""
+}

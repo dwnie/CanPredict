@@ -1,0 +1,43 @@
+{
+  "benchmark": "Apache",
+  "time": "2026-02-07T15:53:08",
+  "return_code": 0,
+  "elapsed_seconds": 1002.325,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Apache.model",
+      "Apache.constraints",
+      "3",
+      "161"
+    ]
+  },
+  "predicted_test_cases": 161,
+  "initial_test_cases": 173,
+  "final_test_cases": 145,
+  "operations": [
+    "delete 12 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 173 test cases in 8.213 seconds\ndelete 12 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 145 test cases in 645.369 seconds\nEnd\n",
+  "stderr": ""
+}

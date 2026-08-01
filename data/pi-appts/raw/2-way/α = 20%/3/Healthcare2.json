@@ -1,0 +1,28 @@
+{
+  "benchmark": "Healthcare2",
+  "time": "2026-03-27T20:06:04",
+  "return_code": 0,
+  "elapsed_seconds": 1000.328,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Healthcare2.model",
+      "Healthcare2.constraints",
+      "2",
+      "16"
+    ]
+  },
+  "predicted_test_cases": 16,
+  "initial_test_cases": 16,
+  "final_test_cases": 14,
+  "operations": [
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 16 test cases in 0.304 seconds\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 14 test cases in 0.717 seconds\nEnd\n",
+  "stderr": ""
+}

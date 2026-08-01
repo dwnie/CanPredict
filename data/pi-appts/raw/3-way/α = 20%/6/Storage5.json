@@ -1,0 +1,48 @@
+{
+  "benchmark": "Storage5",
+  "time": "2026-02-08T04:24:26",
+  "return_code": 0,
+  "elapsed_seconds": 1000.41,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Storage5.model",
+      "Storage5.constraints",
+      "3",
+      "1723"
+    ]
+  },
+  "predicted_test_cases": 1723,
+  "initial_test_cases": 1879,
+  "final_test_cases": 1711,
+  "operations": [
+    "delete 156 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 1879 test cases in 1.026 seconds\ndelete 156 rows\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 1711 test cases in 738.098 seconds\nEnd\n",
+  "stderr": ""
+}

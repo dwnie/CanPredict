@@ -1,0 +1,31 @@
+{
+  "benchmark": "CommProtocol",
+  "time": "2026-02-06T06:28:09",
+  "return_code": 0,
+  "elapsed_seconds": 1000.423,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "CommProtocol.model",
+      "CommProtocol.constraints",
+      "3",
+      "45"
+    ]
+  },
+  "predicted_test_cases": 45,
+  "initial_test_cases": 49,
+  "final_test_cases": 41,
+  "operations": [
+    "delete 4 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 49 test cases in 0.393 seconds\ndelete 4 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 41 test cases in 2.821 seconds\nEnd\n",
+  "stderr": ""
+}

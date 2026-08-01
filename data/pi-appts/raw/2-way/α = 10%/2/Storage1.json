@@ -1,0 +1,26 @@
+{
+  "benchmark": "Storage1",
+  "time": "2026-03-26T12:03:10",
+  "return_code": 0,
+  "elapsed_seconds": 1000.316,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Storage1.model",
+      "Storage1.constraints",
+      "2",
+      "18"
+    ]
+  },
+  "predicted_test_cases": 18,
+  "initial_test_cases": 17,
+  "final_test_cases": 17,
+  "operations": [
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 17 test cases in 0.302 seconds\ndelete 1 rows\nSuccess to construct a CA with 17 test cases in 0.302 seconds\nEnd\n",
+  "stderr": ""
+}

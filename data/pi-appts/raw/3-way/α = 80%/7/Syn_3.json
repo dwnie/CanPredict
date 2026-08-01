@@ -1,0 +1,42 @@
+{
+  "benchmark": "Syn_3",
+  "time": "2026-02-19T03:48:56",
+  "return_code": 0,
+  "elapsed_seconds": 1000.348,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Syn_3.model",
+      "Syn_3.constraints",
+      "3",
+      "66"
+    ]
+  },
+  "predicted_test_cases": 66,
+  "initial_test_cases": 71,
+  "final_test_cases": 51,
+  "operations": [
+    "delete 5 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 71 test cases in 0.324 seconds\ndelete 5 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 51 test cases in 369.909 seconds\nEnd\n",
+  "stderr": ""
+}

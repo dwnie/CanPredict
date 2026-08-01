@@ -1,0 +1,27 @@
+{
+  "benchmark": "Insurance",
+  "time": "2026-03-28T08:03:57",
+  "return_code": 0,
+  "elapsed_seconds": 1000.333,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Insurance.model",
+      "Insurance.constraints",
+      "2",
+      "525"
+    ]
+  },
+  "predicted_test_cases": 525,
+  "initial_test_cases": 527,
+  "final_test_cases": 527,
+  "operations": [
+    "delete 2 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "No input forbidden tuples.\nWait......\nSuccess to construct an initial CA with 527 test cases in 0.315 seconds\ndelete 2 rows\nadd one row\nadd one row\ndelete 1 rows\nSuccess to construct a CA with 527 test cases in 2.842 seconds\nEnd\n",
+  "stderr": ""
+}

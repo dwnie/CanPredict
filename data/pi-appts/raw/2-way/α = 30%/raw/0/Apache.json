@@ -1,0 +1,28 @@
+{
+  "benchmark": "Apache",
+  "time": "2026-03-27T11:29:06",
+  "return_code": 0,
+  "elapsed_seconds": 1000.335,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Apache.model",
+      "Apache.constraints",
+      "2",
+      "31"
+    ]
+  },
+  "predicted_test_cases": 31,
+  "initial_test_cases": 33,
+  "final_test_cases": 30,
+  "operations": [
+    "delete 2 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 33 test cases in 0.385 seconds\ndelete 2 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 30 test cases in 0.634 seconds\nEnd\n",
+  "stderr": ""
+}

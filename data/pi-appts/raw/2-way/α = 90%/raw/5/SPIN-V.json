@@ -1,0 +1,39 @@
+{
+  "benchmark": "SPIN-V",
+  "time": "2026-04-01T02:05:52",
+  "return_code": 0,
+  "elapsed_seconds": 1000.348,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "SPIN-V.model",
+      "SPIN-V.constraints",
+      "2",
+      "43"
+    ]
+  },
+  "predicted_test_cases": 43,
+  "initial_test_cases": 45,
+  "final_test_cases": 31,
+  "operations": [
+    "delete 2 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 45 test cases in 0.335 seconds\ndelete 2 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 31 test cases in 2.941 seconds\nEnd\n",
+  "stderr": ""
+}

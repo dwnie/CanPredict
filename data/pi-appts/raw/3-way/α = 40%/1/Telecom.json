@@ -1,0 +1,29 @@
+{
+  "benchmark": "Telecom",
+  "time": "2026-02-09T07:30:08",
+  "return_code": 0,
+  "elapsed_seconds": 1000.325,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Telecom.model",
+      "Telecom.constraints",
+      "3",
+      "122"
+    ]
+  },
+  "predicted_test_cases": 122,
+  "initial_test_cases": 126,
+  "final_test_cases": 120,
+  "operations": [
+    "delete 4 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 126 test cases in 0.302 seconds\ndelete 4 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 120 test cases in 0.436 seconds\nEnd\n",
+  "stderr": ""
+}

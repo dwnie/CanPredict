@@ -1,0 +1,30 @@
+{
+  "benchmark": "ProcessorComm1",
+  "time": "2026-02-07T04:43:07",
+  "return_code": 0,
+  "elapsed_seconds": 1000.343,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "ProcessorComm1.model",
+      "ProcessorComm1.constraints",
+      "3",
+      "102"
+    ]
+  },
+  "predicted_test_cases": 102,
+  "initial_test_cases": 163,
+  "final_test_cases": 107,
+  "operations": [
+    "delete 61 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 163 test cases in 0.311 seconds\ndelete 61 rows\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\nadd one row\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 107 test cases in 196.768 seconds\nEnd\n",
+  "stderr": ""
+}

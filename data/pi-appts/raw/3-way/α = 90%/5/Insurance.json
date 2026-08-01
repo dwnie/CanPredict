@@ -1,0 +1,41 @@
+{
+  "benchmark": "Insurance",
+  "time": "2026-02-21T22:00:50",
+  "return_code": 0,
+  "elapsed_seconds": 1000.353,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Insurance.model",
+      "Insurance.constraints",
+      "3",
+      "6873"
+    ]
+  },
+  "predicted_test_cases": 6873,
+  "initial_test_cases": 6866,
+  "final_test_cases": 6851,
+  "operations": [
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "No input forbidden tuples.\nWait......\nSuccess to construct an initial CA with 6866 test cases in 0.574 seconds\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 6851 test cases in 2.413 seconds\nEnd\n",
+  "stderr": ""
+}

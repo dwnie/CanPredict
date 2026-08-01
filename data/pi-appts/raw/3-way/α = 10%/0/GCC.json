@@ -1,0 +1,44 @@
+{
+  "benchmark": "GCC",
+  "time": "2026-02-09T06:22:21",
+  "return_code": 0,
+  "elapsed_seconds": 1003.074,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "GCC.model",
+      "GCC.constraints",
+      "3",
+      "99"
+    ]
+  },
+  "predicted_test_cases": 99,
+  "initial_test_cases": 108,
+  "final_test_cases": 82,
+  "operations": [
+    "delete 9 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 108 test cases in 7.783 seconds\ndelete 9 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 82 test cases in 903.833 seconds\nEnd\n",
+  "stderr": ""
+}

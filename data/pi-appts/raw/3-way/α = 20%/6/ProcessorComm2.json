@@ -1,0 +1,41 @@
+{
+  "benchmark": "ProcessorComm2",
+  "time": "2026-02-08T08:51:02",
+  "return_code": 0,
+  "elapsed_seconds": 1000.36,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "ProcessorComm2.model",
+      "ProcessorComm2.constraints",
+      "3",
+      "142"
+    ]
+  },
+  "predicted_test_cases": 142,
+  "initial_test_cases": 161,
+  "final_test_cases": 128,
+  "operations": [
+    "delete 19 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 161 test cases in 0.427 seconds\ndelete 19 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 128 test cases in 458.063 seconds\nEnd\n",
+  "stderr": ""
+}

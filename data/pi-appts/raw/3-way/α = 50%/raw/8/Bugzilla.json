@@ -1,0 +1,39 @@
+{
+  "benchmark": "Bugzilla",
+  "time": "2026-02-11T08:22:18",
+  "return_code": 0,
+  "elapsed_seconds": 1000.417,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Bugzilla.model",
+      "Bugzilla.constraints",
+      "3",
+      "60"
+    ]
+  },
+  "predicted_test_cases": 60,
+  "initial_test_cases": 68,
+  "final_test_cases": 48,
+  "operations": [
+    "delete 8 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 68 test cases in 0.449 seconds\ndelete 8 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 48 test cases in 3.367 seconds\nEnd\n",
+  "stderr": ""
+}

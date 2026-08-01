@@ -1,0 +1,33 @@
+{
+  "benchmark": "Syn_26",
+  "time": "2026-03-31T00:25:46",
+  "return_code": 0,
+  "elapsed_seconds": 1000.348,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Syn_26.model",
+      "Syn_26.constraints",
+      "2",
+      "32"
+    ]
+  },
+  "predicted_test_cases": 32,
+  "initial_test_cases": 34,
+  "final_test_cases": 26,
+  "operations": [
+    "delete 2 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 34 test cases in 0.347 seconds\ndelete 2 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 26 test cases in 105.792 seconds\nEnd\n",
+  "stderr": ""
+}

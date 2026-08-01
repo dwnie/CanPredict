@@ -1,0 +1,26 @@
+{
+  "benchmark": "Concurrency",
+  "time": "2026-02-19T06:37:41",
+  "return_code": 0,
+  "elapsed_seconds": 1000.288,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Concurrency.model",
+      "Concurrency.constraints",
+      "3",
+      "8"
+    ]
+  },
+  "predicted_test_cases": 8,
+  "initial_test_cases": 8,
+  "final_test_cases": 8,
+  "operations": [
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 8 test cases in 0.256 seconds\ndelete 1 rows\nSuccess to construct a CA with 8 test cases in 0.256 seconds\nEnd\n",
+  "stderr": ""
+}

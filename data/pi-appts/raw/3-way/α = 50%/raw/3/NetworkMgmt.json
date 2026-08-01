@@ -1,0 +1,40 @@
+{
+  "benchmark": "NetworkMgmt",
+  "time": "2026-02-11T00:01:40",
+  "return_code": 0,
+  "elapsed_seconds": 1000.336,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "NetworkMgmt.model",
+      "NetworkMgmt.constraints",
+      "3",
+      "1113"
+    ]
+  },
+  "predicted_test_cases": 1113,
+  "initial_test_cases": 1125,
+  "final_test_cases": 1100,
+  "operations": [
+    "delete 12 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 1125 test cases in 0.369 seconds\ndelete 12 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 1100 test cases in 0.847 seconds\nEnd\n",
+  "stderr": ""
+}

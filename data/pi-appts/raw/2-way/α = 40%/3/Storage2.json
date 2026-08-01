@@ -1,0 +1,26 @@
+{
+  "benchmark": "Storage2",
+  "time": "2026-03-28T22:33:41",
+  "return_code": 0,
+  "elapsed_seconds": 1000.312,
+  "mode": "csv-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Storage2.model",
+      "Storage2.constraints",
+      "2",
+      "18"
+    ]
+  },
+  "predicted_test_cases": 18,
+  "initial_test_cases": 18,
+  "final_test_cases": 18,
+  "operations": [
+    "delete 1 rows"
+  ],
+  "stdout": "No input forbidden tuples.\nWait......\nSuccess to construct an initial CA with 18 test cases in 0.289 seconds\ndelete 1 rows\nSuccess to construct a CA with 18 test cases in 0.289 seconds\nEnd",
+  "stderr": ""
+}

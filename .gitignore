@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+runs/
+
+# Versioned research artifacts distributed separately from GitHub.
+corpus/
+training-model/
+data/casa/raw/
+data/casa/run_md/
+data/fastca/raw/
+data/wca/raw/
+data/appts/results/
+data/pi-appts/results/
+
+# Third-party executable artifacts; obtain them from their upstream sources.
+scripts/casa/
+scripts/fastca/
+scripts/wca/
+scripts/casa/casa-1.1b
+scripts/fastca/FastCA
+scripts/fastca/acts_3.0.jar
+scripts/wca/WCA
+scripts/wca/acts_cmd_2.92.jar
+src/APPTS_and_PI-APPTS/*.jar

@@ -1,0 +1,28 @@
+{
+  "benchmark": "Apache",
+  "time": "2026-01-23T17:35:59",
+  "return_code": 0,
+  "elapsed_seconds": 1000.323,
+  "mode": "no-preds",
+  "command": {
+    "executable": "java",
+    "jar": "APPTS.jar",
+    "arguments": [
+      "1000",
+      "Apache.model",
+      "Apache.constraints",
+      "2"
+    ]
+  },
+  "predicted_test_cases": null,
+  "initial_test_cases": 33,
+  "final_test_cases": 30,
+  "operations": [
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows",
+    "delete 1 rows"
+  ],
+  "stdout": "Wait......\nSuccess to construct an initial CA with 33 test cases in 0.424 seconds\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\ndelete 1 rows\nSuccess to construct a CA with 30 test cases in 0.776 seconds\nEnd\n",
+  "stderr": ""
+}
