@@ -134,32 +134,6 @@ The dedicated [APPTS and PI-APPTS README](src/APPTS_and_PI-APPTS/README.md)
 documents the Java command-line interface and the optional predicted initial
 size used by PI-APPTS.
 
-The batch runners for CASA, FastCA, and WCA, together with their executable
-dependencies, are intentionally excluded from the public GitHub release. They
-depend on third-party tools with separate installation and redistribution
-requirements.
-
-## Experimental data
-
-The GitHub release publishes the invocation-level records in
-`data/appts/raw/` and `data/pi-appts/raw/` as the sole public format for APPTS
-and PI-APPTS results. Each JSON record has been checked against its original
-execution log: `initial_test_cases` and `final_test_cases` are reconciled with
-the logged construction messages, and the command metadata is schema-checked.
-The derived APPTS/PI-APPTS CSV tables are intentionally excluded because they
-can be regenerated and independently audited from the raw records.
-
-For PI-APPTS, the reported `N_init` is the actual starting size used by the
-algorithm:
-
-```text
-N_init = min(N_pred, IPOG size)
-```
-
-It is not the unconstrained model prediction `N_pred`.  Raw JSON records retain
-both the predicted size and the IPOG initial size so that this calculation can
-be independently checked.
-
 ## Large artifacts
 
 The two serialized corpora occupy approximately 4.8 GB and the archived model
@@ -181,17 +155,6 @@ training-model/
 Git LFS is suitable only for artifacts that are within the applicable LFS
 per-file limit and storage quota.  It is not a good default for the two large
 corpus files.
-
-## Security and licensing
-
-- `.pt`, `.pth`, and `.joblib` files may deserialize executable Python
-  objects.  Load them only from a trusted, checksummed release.
-- Add a repository license and a `THIRD_PARTY_NOTICES` file before release.
-- Do not redistribute CASA, FastCA, WCA, ACTS, IPOG, or benchmark-derived
-  files until their licenses and redistribution permissions have been checked.
-- The training corpus and benchmark-derived artifacts must be released only
-  after confirming the provenance and redistribution terms of every source
-  benchmark.
 
 ## Naming convention
 
