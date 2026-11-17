@@ -6,7 +6,7 @@ interaction strengths.  The main predictor combines heterogeneous message
 passing over positive-literal, negative-literal, and clause nodes with a
 graph-level structural descriptor.
 
-The repository also includes the APPTS and PI-APPTS implementation, processed
+The repository also includes the APPTS, PI-APPTS, and PI-CASA implementations, processed
 experimental records, and the artifacts needed to reproduce the reported
 baselines and ablations.
 
@@ -16,7 +16,7 @@ baselines and ablations.
 | --- | --- |
 | `scripts/prediction/` | Heterogeneous LCG model definition, training, and target inference scripts. |
 | `scripts/ablation/` | Ablation scripts: descriptor-only Ridge/XGBoost baselines and the LCG-without-structural-descriptor HeteroSAGE variant. |
-| `src/APPTS_and_PI-APPTS/` | APPTS and PI-APPTS source code and benchmark input files. |
+| `src/APPTS_and_PI-APPTS/`, `src/PI-CASA/` | APPTS, PI-APPTS, and PI-CASA source code and benchmark input files. |
 | `corpus/` | Serialized 2-way and 3-way LCG training corpora. Distributed as external research artifacts; see [Large artifacts](#large-artifacts). |
 | `target-benchmarks/` | The 55 labeled target benchmark LCGs used for prediction evaluation. |
 | `training-model/` | Ten-fold checkpoints for GNN models and archived Ridge/XGBoost model artifacts. Distributed as external research artifacts. |
@@ -134,6 +134,12 @@ The dedicated [APPTS and PI-APPTS README](src/APPTS_and_PI-APPTS/README.md)
 documents the Java command-line interface and the optional predicted initial
 size used by PI-APPTS.
 
+## PI-CASA
+
+The dedicated [PI-CASA README](src/PI-CASA/readme.md) provides build instructions
+and command-line examples for generating 2-way and 3-way covering arrays with a
+predicted initial size.
+
 ## Large artifacts
 
 The two serialized corpora and the archived model artifacts are available in
@@ -157,7 +163,7 @@ corpus files.
 
 ## Naming convention
 
-Public-facing scripts and artifact directories use portable lowercase names.
-The 2-way and 3-way suffixes are written as `2way` and `3way`; directories use
-hyphens to separate words.  This convention avoids operating-system-specific
-characters and makes commands stable across platforms.
+Directory names follow the conventions of their respective components and
+may contain capitalization, hyphens, or underscores, such as `PI-CASA`,
+`APPTS_and_PI-APPTS`, `HeteroSAGE`, and `2_way_model`. Preserve the exact
+spelling and capitalization when referencing these paths.
