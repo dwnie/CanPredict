@@ -2,11 +2,6 @@
 
 Run the following commands from this directory. Linux, GNU make, and g++ are required. The included `PI-CASA` binary is built for Linux x86-64.
 
-## Build
-
-```bash
-make
-```
 
 ## Run a Single Benchmark
 
